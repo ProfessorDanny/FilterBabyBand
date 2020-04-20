@@ -163,13 +163,13 @@ namespace FilterArmBand
                         ZPLString =
 
                             "^XA" +
-                            "^FT340,1410^A0I,31,26^FD" +
+                            "^FT320,1410^A0I,31,26^FD" +
                             LabelData[0] +
                             "^FS" + term +
-                            "^FT340,1380^A0I,31,20^FD" +
+                            "^FT320,1380^A0I,31,20^FD" +
                             LabelData[1] +
                             "^FS" + term +
-                            "^FT340,1350^A0I,31,19^FD" +
+                            "^FT320,1350^A0I,31,19^FD" +
                             LabelData[2] +
                             "^FS" + term +
                             "^FO170,1300^BY1^BCN,38,N,N^FD" +
@@ -179,13 +179,13 @@ namespace FilterArmBand
                             BarCodeVal +
                             "^FS" + term + term +
 
-                            "^FT335,1208^A0I,31,26^FD" +
+                            "^FT320,1208^A0I,31,26^FD" +
                             LabelData[0] +
                             "^FS" + term +
-                            "^FT335,1178^A0I,31,20^FD" +
+                            "^FT320,1178^A0I,31,20^FD" +
                             LabelData[1] +
                             "^FS" + term +
-                            "^FT335,1148^A0I,31,19^FD" +
+                            "^FT320,1148^A0I,31,19^FD" +
                             LabelData[2] +
                             "^FS" + term +
                             "^FO170,1090^BCN,38,N,N^FD" +
